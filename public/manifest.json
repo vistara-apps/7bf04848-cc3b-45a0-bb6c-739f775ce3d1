@@ -20,7 +20,13 @@
       "https://collabcraft.app/screenshot3.png"
     ],
     "primaryCategory": "social",
-    "tags": ["collaboration", "projects", "skills", "matching", "social"],
+    "tags": [
+      "collaboration",
+      "projects",
+      "skills",
+      "matching",
+      "social"
+    ],
     "heroImageUrl": "https://collabcraft.app/hero.png",
     "tagline": "Find your perfect project partner",
     "ogTitle": "CollabCraft - Skill-match, build, and remix",
