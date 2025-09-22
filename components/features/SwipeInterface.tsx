@@ -113,8 +113,8 @@ export function SwipeInterface({ onMatch, onPass }: SwipeInterfaceProps) {
             onDragEnd={(event, info) => handleDragEnd(event, info, currentUser)}
             initial={{ scale: 1, opacity: 1 }}
             animate={{ scale: 1, opacity: 1 }}
-            exit={{ 
-              x: (info: any) => info.offset.x > 0 ? 300 : -300,
+            exit={{
+              x: 0,
               opacity: 0,
               scale: 0.8,
               transition: { duration: 0.3 }
